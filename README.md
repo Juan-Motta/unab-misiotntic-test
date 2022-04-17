@@ -8,8 +8,12 @@ El siguiente script fue contruido bajo el lenguaje de programacion Python utiliz
 
 Para ejecutar el script se debe ejecutar el comando:
 
-<span style="display: inline-block; padding: 6px 8px; background-color: #49cc90; border-radius: 4px; color: #fff; margin-right: 8px; font-family: sans-serif;">**sh**</span> <span style="display: inline-block; padding: 6px 12px; background-color: #eee; border-radius: 4px; color: #444; font-family: monospace;">python main.py </span>
+```bash
+python main.py
+```
 
-<span style="display: inline-block; padding: 6px 8px; background-color: #61affe; border-radius: 4px; color: #fff; margin-right: 8px; font-family: sans-serif;">**docker**</span> <span style="display: inline-block; padding: 6px 12px; background-color: #eee; border-radius: 4px; color: #444; font-family: monospace;">docker-compose up </span>
+```bash
+docker-compose up
+```
 
 ### Diagrama de flujo del programa
