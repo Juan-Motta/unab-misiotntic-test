@@ -6,14 +6,19 @@
 
 El siguiente script fue contruido bajo el lenguaje de programacion Python utilizando su version 3.10.4, asi mismo el script se encuentra dockerizado permitiendo su ejecucion en cualquier maquina que cuante con docker instalado o en su defecto con la version mencionada anteriormente de Python.
 
-Para ejecutar el script se debe ejecutar el comando:
+Para ejecutar el script sin docker se debe ejecutar el comando:
 
 ```bash
 python main.py
 ```
 
+Para ejecutar el script con docker se debe ejecutar el comando:
+
 ```bash
-docker-compose up
+docker build -t unab-test .
+```
+```bash
+docker run -it --rm --name ubab-test unab-test
 ```
 
 ### Diagrama de flujo del programa
